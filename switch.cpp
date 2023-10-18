@@ -13,6 +13,8 @@ int main(){
     case 'D':
         std::cout << 'D';
         break; 
+    default: 
+        std::cout << "Unrecognized command"
   }
 
 
