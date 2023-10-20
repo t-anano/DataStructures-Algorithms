@@ -25,3 +25,13 @@ const E& SDoubleyLL<E>::front()const{
 const E& SDoubleyLL<E>::back()const{
     return trailer->prev->elem; 
 } 
+
+void SDoubley<E>::add(const E& e){
+        SDoubleyNode<E> myNode; 
+        myNode->next = head; 
+        head = myNext; 
+}
+
+
+
+
