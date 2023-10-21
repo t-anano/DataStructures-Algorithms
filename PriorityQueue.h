@@ -1,3 +1,9 @@
+// Kind of like a priority based vector
+// Removal is based on priority in the queue
+// Stores a collection of prioritized elements
+// Supports insertion in any prioritized order 
+
+
 template <typename E, typename C>
 class ListPriorityQueue {
 public:
