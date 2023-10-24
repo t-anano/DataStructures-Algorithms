@@ -1,7 +1,6 @@
 // Queue: Like a line in an amusement park 
 // FIFO -> throughput. First in the line, first out. 
 
-
 template <typename E>
 class Queue { // an interface for a queue
 public:
